@@ -1,0 +1,47 @@
+.file-upload {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .file-upload__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111827;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .file-upload__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .file-upload__button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .upload-progress {
+    margin-top: 16px;
+    width: 100%;
+    background-color: #f3f4f6;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .upload-progress-bar {
+    height: 4px;
+    background-color: #4361ee;
+    transition: width 0.3s ease;
+  }
+  
+  .upload-progress-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 4px;
+    display: block;
+    text-align: center;
+  }

@@ -1,0 +1,46 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 24px;
+    border-radius: 9999px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: none;
+    outline: none;
+  }
+  
+  .button-default {
+    background-color: #4361ee;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .button-default:hover:not(:disabled) {
+    background-color: #3b55eb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-destructive {
+    background-color: #dc2626;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-destructive:hover:not(:disabled) {
+    background-color: #b91c1c;
+  }
+  
+  .button:disabled {
+    background-color: #e5e7eb;
+    color: #9ca3af;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  .button:disabled:hover {
+    background-color: #e5e7eb;
+    box-shadow: none;
+  }

@@ -1,0 +1,26 @@
+.alert {
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+  }
+  
+  .alert-default {
+    border-color: #e5e7eb;
+    background-color: white;
+  }
+  
+  .alert-destructive {
+    border-color: #ef4444;
+    background-color: #fef2f2;
+  }
+  
+  .alert-title {
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  
+  .alert-description {
+    font-size: 14px;
+    color: #4b5563;
+  }
