@@ -17,33 +17,33 @@ module.exports = {
       template: './public/index.html',
     }),
     new DefinePlugin({
-      process: {env: {}}
+      process: { env: {} }
     })
   ],
   devServer: {
     port: 3000,
     hot: false,
     proxy: {
-      '/api/v1/harver': {
+      '/api/v1/hiring': {
         target: 'http://localhost:8080',
-        pathRewrite: { '^/api/v1/harver': '/api/v1/harver' },
+        pathRewrite: { '^/api/v1/hiring': '/api/v1/hiring' },
         changeOrigin: true,
         onError: (err, req, res) => {
           res.writeHead(504, {
             'Content-Type': 'application/json',
           });
-          res.end(JSON.stringify({ 
+          res.end(JSON.stringify({
             error: 'Server is not responding',
-            status: 504 
+            status: 504
           }));
         },
         onProxyError: (err, req, res) => {
           res.writeHead(504, {
             'Content-Type': 'application/json',
           });
-          res.end(JSON.stringify({ 
+          res.end(JSON.stringify({
             error: 'Cannot connect to server',
-            status: 504 
+            status: 504
           }));
         }
       }

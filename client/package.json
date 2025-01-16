@@ -1,10 +1,10 @@
 {
-  "name": "@harver/client",
+  "name": "talent-match-engine-client",
   "version": "1.0.0",
-  "description": "Client of Harver Assignment",
+  "description": "An intelligent recruitment system that matches the best candidates with job vacancies based on score",
   "main": "index.ts",
-  "author": "Harver Engineering",
-  "license": "UNLICENSED",
+  "author": "Md Sazzadul Islam",
+  "license": "MIT",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",

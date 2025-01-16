@@ -10,7 +10,7 @@ export function Layout({ children }: LayoutProps) {
     <div className="layout">
       <main className="main">
         <h1 className="title">
-          Candidate Matching Engine || Harver Assignment
+          Candidate Matching Engine
         </h1>
         {children}
       </main>

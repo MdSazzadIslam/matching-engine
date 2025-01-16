@@ -1,4 +1,4 @@
-# Harver Matching Engine Client
+# Talent Matching Engine Client
 
 A React-based frontend application for uploading candidate data and displaying matching results.
 
@@ -15,7 +15,7 @@ A React-based frontend application for uploading candidate data and displaying m
 
 ## Overview
 
-This is the frontend application for the Harver Matching Engine. It provides a user interface for uploading candidate files and displaying match results between candidates and vacancies.
+This is the frontend application for the Talent Matching Engine. It provides a user interface for uploading candidate files and displaying match results between candidates and vacancies.
 
 ## Project Structure
 
@@ -219,4 +219,4 @@ VacancyId,CandidateId,Overall Score
 
 ## License
 
-This project is proprietary software for Harver.
+This project is proprietary under MIT.

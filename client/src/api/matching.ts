@@ -3,7 +3,7 @@ export const calculateMatching = async (file: File): Promise<string> => {
   formData.append("file", file);
 
   try {
-    const response = await fetch(`/api/v1/harver/matching/calculate`, {
+    const response = await fetch(`/api/v1/hiring/matching/calculate`, {
       method: "POST",
       body: formData,
     });
