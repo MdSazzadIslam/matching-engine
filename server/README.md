@@ -1,4 +1,4 @@
-# Harver Matching Engine Backend
+# Talent Matching Engine Backend
 
 A TypeScript-based backend service that processes candidate applications and matches them with vacancies based on module scores.
 
@@ -210,4 +210,4 @@ Error Responses:
 
 ## License
 
-This project is proprietary software for Harver.
+This project is proprietary under MIT.

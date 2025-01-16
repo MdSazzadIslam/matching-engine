@@ -1,9 +1,9 @@
 {
-  "name": "@harver/server",
+  "name": "talent-match-engine-server",
   "version": "1.0.0",
-  "description": "Server of Harver Assignment",
-  "author": "Harver Engineering",
-  "license": "UNLICENSED",
+  "description": "An intelligent recruitment system that matches the best candidates with job vacancies based on score",
+  "author": "Md Sazzadul Islam",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",

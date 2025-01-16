@@ -1,0 +1,4 @@
+2025-01-16 14:37:59 [info]: Server is running on port 8080
+2025-01-16 14:49:37 [info]: Server is running on port 8080
+2025-01-16 14:54:23 [info]: Parsing input file
+2025-01-16 14:54:23 [info]: Request completed {"method":"POST","url":"/matching/calculate","ip":"::1","duration":9,"status":200,"contentLength":"336"}

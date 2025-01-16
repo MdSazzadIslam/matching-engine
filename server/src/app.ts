@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(requestLogger);
 
 // Routes
-app.use('/api/v1/harver', apiRoutes);
+app.use('/api/v1/hiring', apiRoutes);
 
 // Error handling
 app.use(errorHandler);
